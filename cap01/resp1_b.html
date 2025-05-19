@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+</head>
+<body>
+
+<script>
+	/*
+    Ler o valor total de uma conta
+    Informar quantos clientes vão pagá-la
+    Valor a ser pago por cliente
+    */
+    const valorConta = Number(prompt('Valor da Conta R$: '));
+    const quantidadeClientes = Number(prompt('Número de Clientes: '))
+    const valorPorCliente = valorConta / quantidadeClientes;
+
+    alert(`Valor da Conta R$: ${valorConta.toFixed(2)}\nNúmero de clientes: ${quantidadeClientes}\nValor por Cliente R$: ${valorPorCliente.toFixed(2)}`);
+</script>
+</body>
+</html>

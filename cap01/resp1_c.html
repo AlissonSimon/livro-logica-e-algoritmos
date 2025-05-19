@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Document</title>
+</head>
+<body>
+
+<script>
+	/*
+	Ler o preço de um produto
+	Informar as opções de pagamento da loja
+	Calcular o valor de pagamento à vista com 10% de desconto
+	Calcular o valor parcelado em 3x
+	 */
+	const precoProduto = Number(prompt('Preço do Produto R$: '));
+	const precoAVista = precoProduto - (precoProduto * 0.1);
+	const precoParcelado = precoProduto / 3;
+	
+	alert(`Preço R$: ${precoProduto.toFixed(2)}\nÀ vista R$: ${precoAVista.toFixed(2)}\nOu 3x de R$: ${precoParcelado.toFixed(2)}`);
+</script>
+</body>
+</html>
