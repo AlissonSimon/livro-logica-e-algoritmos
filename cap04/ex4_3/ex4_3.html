@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+<script>
+    /*
+    O script vai informar o valor de entrega de um medicamento conforme o bairro do cliente
+    */
+    const bairro = prompt('Bairro de entrega: ');
+    
+    let taxaEntrega;
+    switch (bairro) {
+        case 'Centro':
+            taxaEntrega = 5.00;
+            break;
+        case 'Fragata':
+        case 'Três Vendas':
+            taxaEntrega = 7.00;
+            break;
+        case 'Laranjal':
+            taxaEntrega = 10.00;
+            break;
+        default:
+            taxaEntrega = 8.00;
+    }
+    alert(`Taxa R$: ${taxaEntrega.toFixed(2)}`);
+</script>
+</body>
+</html>

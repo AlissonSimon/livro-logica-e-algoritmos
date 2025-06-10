@@ -1,0 +1,27 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+    overflow: hidden;
+}
+
+.img {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    float: left;
+    height: 300px;
+    width: 300px;
+    margin: auto;
+}
+
+h1 {
+    border-bottom-style: inset;
+}

@@ -1,0 +1,41 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    font-size: 1.5em;
+}
+
+.container_imagem {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_imagem img {
+    width: 600px;
+    border-radius: 20px;
+}
+
+.container_conteudo {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+div {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 20px;
+}
