@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./resp5_a.css">
+</head>
+<body>
+<section class="container_imagem">
+    <img src="./img/imagem.svg" alt="Imagem Frutas">
+</section>
+
+<section class="container_conteudo">
+    <h1>Programa Repete Fruta</h1>
+    <form>
+        <label for="inFruta">Fruta:</label>
+        <input type="text" id="inFruta" name="inFruta" placeholder="Digite uma Fruta" required>
+        <label for="inQuantidade">Número:</label>
+        <input type="number" min="1" step="1" id="inQuantidade" name="inQuantidade" placeholder="Digite um Número" required>
+        <button type="submit">Repetir Fruta</button>
+    </form>
+    <div id="outFrutas"></div>
+</section>
+
+<script src="./resp5_a.js"></script>
+</body>
+</html>

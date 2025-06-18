@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./resp5_b.css">
+</head>
+<body>
+<section class="container_imagem">
+    <img src="./img/imagem.svg" alt="Imagem Chinchila">
+</section>
+
+<section class="container_conteudo">
+    <h1>Programa Criação de Chinchilas</h1>
+    <form>
+        <label for="numeroChinchilas">Nº de Chinchilas:</label>
+        <input type="number" id="numeroChinchilas" name="numeroChinchilas" min="1" placeholder="Digite a quantidade de chinchilas" required>
+        <label for="numeroAnos">Nº Anos:</label>
+        <input type="number" id="numeroAnos" name="numeroAnos" min="1" placeholder="Digite a quantidade de anos" required>
+        <button type="submit">Mostrar Previsão de Chinchilas</button>
+    </form>
+    <div id="resultado"></div>
+</section>
+
+<script src="./resp5_b.js"></script>
+</body>
+</html>
