@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./ex6_3.css">
+</head>
+<body>
+<section class="container_imagem">
+    <img src="./img/imagem.svg" alt="Imagem Carros Antigos">
+</section>
+
+<section class="container_conteudo">
+    <h1>Revenda Herbie</h1>
+    <form>
+        <div class="formulario_modelo">
+            <label for="inModelo">Modelo:</label>
+            <input type="text" id="inModelo" placeholder="Digite o Modelo" required>
+        </div>
+        <div class="formulario_preco">
+            <label for="inPreco">Preço R$:</label>
+            <input type="number" id="inPreco" placeholder="Digite o Preço" required>
+            <input type="submit" value="Adicionar">
+        </div>
+        <div class="formulario_filtros">
+            <input type="button" value="Listar Todos" id="btnListar" name="btnListar">
+            <input type="button" value="Filtrar por Preço" id="btnFiltrar" name="btnFiltrar">
+            <input type="button" value="Simular Promoção" id="btnSimularPromo" name="btnSimularPromo">
+        </div>
+    </form>
+    <div id="lista"></div>
+</section>
+
+<script src="./ex6_3.js"></script>
+</body>
+</html>

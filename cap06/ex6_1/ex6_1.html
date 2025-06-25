@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./ex6_1.css">
+</head>
+<body>
+<section class="container_imagem">
+    <img src="img/imagem.svg">
+</section>
+
+<section class="container_conteudo">
+    <h1>Consultório Odontológico</h1>
+    <form>
+        <label for="inPaciente">Paciente:</label>
+        <input type="text" id="inPaciente" required autofocus>
+        <input type="submit" value="Adicionar">
+        <input type="button" value="Urgência" id="btnUrgencia">
+        <input type="button" value="Atender" id="btnAtender">
+    </form>
+    <h3>Em atendimento: <span class="fonte-azul"></span></h3>
+    <div id="listaPacientes"></div>
+</section>
+
+<script src="./ex6_1.js"></script>
+</body>
+</html>

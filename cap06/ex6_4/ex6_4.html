@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./ex6_4.css">
+</head>
+<body>
+<section class="container_imagem">
+    <img src="./img/imagem.svg" alt="Imagem Peças Encaixadas">
+</section>
+
+<section class="container_conteudo">
+    <h1>Programa Brinquedoteca</h1>
+    <form>
+        <div class="formulario_nome">
+            <label for="inputNomeCrianca">Nome da Criança:</label>
+            <input type="text" id="inputNomeCrianca" name="inputNomeCrianca" placeholder="Digite o Nome..." required autofocus>
+        </div>
+        <div class="formulario_idade">
+            <label for="inputIdadeCrianca">Idade:</label>
+            <input type="number" min="0" id="inputIdadeCrianca" name="inputIdadeCrianca" placeholder="Digite a Idade..." required>
+            <input type="submit" value="Adicionar">
+        </div>
+        <div class="formulario_botoes">
+            <input type="button" id="btnListar" value="Listar Todos">
+            <input type="button" id="btnResumir" value="Resumir Todos">
+        </div>
+    </form>
+    <div id="resultadoLista"></div>
+</section>
+
+<script src="./ex6_4.js"></script>
+</body>
+</html>
