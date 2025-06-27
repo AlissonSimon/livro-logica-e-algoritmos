@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./resp6_a.css">
+</head>
+<body>
+<section class="container_imagem">
+    <img src="./img/imagem.svg" alt="Imagem de Jogo de Pebolim">
+</section>
+
+<section class="container_conteudo">
+    <h1>Jogos Eliminatórios</h1>
+    <form>
+        <div class="formulario_clube">
+            <label for="clube">Clube:</label>
+            <input type="text" id="clube" name="clube" placeholder="Informe seu clube..." required>
+            <input type="submit" value="Adicionar">
+        </div>
+        <div class="formulario_botoes">
+            <input type="button" id="btnListar" value="Listar Clubes">
+            <input type="button" id="btnTabela" value="Montar Tabela de Jogos">
+        </div>
+    </form>
+    <div id="resultado"></div>
+</section>
+
+<script src="./resp6_a.js"></script>
+</body>
+</html>
