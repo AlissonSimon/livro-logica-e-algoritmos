@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./ex7_8.css">
+</head>
+<body>
+<section class="container_imagem">
+    <img src="./img/imagem.svg" alt="Imagem Compras Loja">
+</section>
+
+<section class="container_conteudo">
+    <h1>Programa Caixa da Loja</h1>
+    <form>
+        <div class="conteudo_data">
+            <label for="data">Data de Vencimento:</label>
+            <input type="date" name="data" id="data" required>
+        </div>
+        <div class="conteudo_conta">
+            <label for="conta">Valor da Conta R$:</label>
+            <input type="number" name="conta" id="conta" required>
+            <input type="submit" value="Calcular Multa e Juros">
+        </div>
+        <div class="conteudo_multa">
+            <label for="multa">Valor da Multa R$:</label>
+            <input type="number" name="multa" id="multa" readonly>
+        </div>
+        <div class="conteudo_juros">
+            <label for="juros">Valor dos Juros R$:</label>
+            <input type="number" name="juros" id="juros" readonly>
+        </div>
+        <div class="conteudo_total">
+            <label for="total">Total a Pagar R$:</label>
+            <input type="number" name="total" id="total" readonly>
+            <input type="reset" value="Nova Conta">
+        </div>
+    </form>
+</section>
+
+<script src="./ex7_8.js"></script>
+</body>
+</html>
