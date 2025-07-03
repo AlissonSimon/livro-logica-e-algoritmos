@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./resp7_c.css">
+</head>
+<body>
+<section class="container_imagem">
+    <img src="./img/imagem.svg" alt="Imagem Guarda de Trânsito">
+</section>
+
+<section class="container_conteudo">
+    <h1>Multa de Trânsito</h1>
+    <form>
+        <div class="data">
+            <label for="data">Data da Infração:</label>
+            <input type="date" name="data" id="data" required>
+        </div>
+        <div class="multa">
+            <label for="multa">Valor da Multa R$:</label>
+            <input type="number" name="multa" id="multa" placeholder="Digite o Valor..." required>
+        </div>
+        <div class="calcular">
+            <input type="submit" value="Calcular Data Limite e Valor com Desconto">
+        </div>
+    </form>
+    <div id="resultadoData"></div>
+    <div id="resultadoMulta"></div>
+</section>
+
+<script src="./resp7_c.js"></script>
+</body>
+</html>
