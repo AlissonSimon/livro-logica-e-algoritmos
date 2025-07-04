@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="pt-br" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./ex8_4.css">
+</head>
+<body>
+<section class="container_imagem">
+    <img src="./img/imagem.svg" alt="Imagem Pizza">
+</section>
+
+<section class="container_conteudo">
+    <h1>Pizzaria Avenida - Controle de Pedidos</h1>
+    <form>
+        <div>Item do Pedido:
+            <input type="radio" name="produto" id="rbPizza" checked autofocus> Pizza
+            <input type="radio" name="produto" id="rbBebida"> Bebida
+            <div>
+                <span>Item:</span>
+                <select id="inPizza">
+                    <option value="media">Pizza Média</option>
+                    <option value="grande">Pizza Grande</option>
+                    <option value="familia">Pizza Família</option>
+                </select>
+                <select id="inBebida" class="oculta">
+                    <option value="refri">Refrigerante Litro</option>
+                    <option value="suco">Jarra de Suco</option>
+                    <option value="agua">Água Mineral</option>
+                </select>
+            </div>
+        </div>
+        <div>Detalhes do Item:
+            <input type="text" id="inDetalhes">
+            <input type="submit" value="Adicionar">
+        </div>
+    </form>
+    <pre></pre>
+</section>
+
+<script src="./ex8_4.js"></script>
+</body>
+</html>

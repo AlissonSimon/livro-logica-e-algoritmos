@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./ex8_2.css">
+</head>
+<body>
+<section class="container_imagem">
+    <img src="./img/imagem.svg" alt="Imagem Venda de Carro">
+</section>
+
+<section class="containter_conteudo">
+    <h1>Revenda Avenida - Promoção</h1>
+    <form>
+        <div class="conteudo_modelo">
+            <label for="modeloVeiculo">Modelo do Veículo:</label>
+            <input type="text" name="modeloVeiculo" id="modeloVeiculo" placeholder="Digite o Modelo..." autofocus required>
+        </div>
+        <div class="conteudo_ano">
+            <label for="anoVeiculo">Ano de Fabricação:</label>
+            <input type="number" name="anoVeiculo" id="anoVeiculo" placeholder="Digite o ano de veiculo..." required>
+        </div>
+        <div class="conteudo_valor">
+            <label for="valorVeiculo">Preço R$:</label>
+            <input type="number" name="valorVeiculo" id="valorVeiculo" placeholder="Digite o valor do veiculo..." required>
+        </div>
+        <button type="submit">Classificar - Calcular Entrada e Parcelas</button>
+    </form>
+    <div id="respostaUm"></div>
+    <div id="respostaDois"></div>
+    <div id="respostaTres"></div>
+</section>
+
+<script src="./ex8_2.js"></script>
+</body>
+</html>
