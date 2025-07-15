@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./resp8_c.css">
+</head>
+<body>
+<section class="container_imagem">
+    <img src="./img/imagem.svg" alt="Imagem Veterinária">
+</section>
+
+<section class="container_conteudo">
+    <h1>Veterinária Avenida</h1>
+    <form>
+        <div>
+            <label for="valorVacina">Valor da Vacina:</label>
+            <input type="number" name="valorVacina" id="valorVacina" placeholder="Digite o Valor..." required>
+        </div>
+        
+        <fieldset>
+            <legend>Possui Convênio:</legend>
+            <input type="radio" name="convenio" id="sim" value="sim" checked required>
+            <label for="sim">Sim</label>
+            <input type="radio" name="convenio" id="nao" value="nao" required>
+            <label for="nao">Não</label>
+        </fieldset>
+        
+        <div id="grupoConvenio" class="oculta">
+            <label for="listaConvenio">Convênio:</label>
+            <select id="listaConvenio">
+                <option value="amigoAnimais">Amigo dos Animais</option>
+                <option value="saudeAnimais">Saúde dos Animais</option>
+            </select>
+        </div>
+        
+        <div>
+            <input type="submit" value="Calcular Desconto">
+        </div>
+    </form>
+    
+    <div id="resultadoPagar"></div>
+</section>
+
+<script src="./resp8_c.js"></script>
+</body>
+</html>
