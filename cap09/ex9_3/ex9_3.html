@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <title>Ex 9.3</title>
+    <style>
+        input {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-4">
+            <img src="../img/melancia.svg" alt="Melância">
+        </div>
+        <div class="col-sm-8">
+            <h1>Qual é o peso da Melância?</h1>
+            <form>
+                <div>
+                    <label for="inNome">Nome do Apostador:</label>
+                    <input type="text" id="inNome" class="form-control" required autofocus>
+                </div>
+                <div>
+                    <label for="inPeso">Peso (em g):</label>
+                    <input type="number" id="inPeso" class="form-control" required>
+                </div>
+                <div>
+                    <input type="submit" value="Apostar" class="btn btn-primary">
+                    <input type="button" value="Vencedor" id="btnVencedor" class="btn btn-warning">
+                    <input type="button" value="Limpar Apostas" id="btnLimpar" class="btn btn-danger">
+                </div>
+            </form>
+            <pre></pre>
+        </div>
+    </div>
+</div>
+
+<script src="./ex9_3.js"></script>
+</body>
+</html>

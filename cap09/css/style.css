@@ -1,0 +1,22 @@
+pre {
+    font-size: 1.2em;
+}
+
+.img-fluid {
+    width: 100px;
+}
+
+.cores-Brasil {
+    color: black;
+    background-color: red;
+}
+
+.cores-Pelotas {
+    color: blue;
+    background-color: yellow;
+}
+
+.cores-Farroupilha {
+    color: green;
+    background-color: white;
+}
