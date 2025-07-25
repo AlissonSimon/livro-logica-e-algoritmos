@@ -1,0 +1,46 @@
+h1 {
+    border-bottom-style: inset;
+}
+
+.tarefa-selecionada {
+    color: red;
+    font-style: italic;
+}
+
+.tarefa-normal {
+    color: black;
+}
+
+img.moeda1-00 {
+    width: 84px;
+    height: 84px;
+    margin-bottom: 5px;
+}
+
+img.moeda0-50 {
+    width: 66px;
+    height: 66px;
+    margin-bottom: 5px;
+}
+
+img.moeda0-25 {
+    width: 76px;
+    height: 76px;
+    margin-bottom: 5px;
+}
+
+img.moeda0-10 {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 5px;
+}
+
+.alinha-direita {
+    text-align: right;
+}
+
+i {
+    cursor: pointer;
+    text-decoration: underline;
+    color: red;
+}

@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Exemplo 10.3</title>
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-4">
+            <img src="../img/filmes.svg" alt="Imagem Filmes" class="img-fluid">
+        </div>
+        <div class="col-sm-8">
+            <h1>Meus Filmes Favoritos</h1>
+            <form>
+                <p>
+                    <label for="titulo">Título do Filme:</label>
+                    <input type="text" class="form-control" name="titulo" id="titulo" required autofocus>
+                </p>
+                <p>
+                    <label for="genero">Gênero:</label>
+                    <input type="text" name="genero" id="genero" class="form-control" required>
+                </p>
+                <input type="submit" class="btn btn-primary float-right mb-3" value="Adicionar">
+            </form>
+            <table class="table table-striped">
+                <tr>
+                    <th>Título do Filme</th>
+                    <th>Gênero</th>
+                    <th>Ações</th>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+
+<script src="./ex10_3.js"></script>
+</body>
+</html>
