@@ -44,3 +44,9 @@ i {
     text-decoration: underline;
     color: red;
 }
+
+.vela-img {
+    width: 350px;
+    margin-top: 50px;
+    margin-right: 10px;
+}
