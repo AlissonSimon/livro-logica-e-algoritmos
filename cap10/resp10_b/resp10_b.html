@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Exercício 10.B</title>
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-4">
+            <img src="../img/nome.svg" alt="Imagem 'Meu nome é'" class="img-fluid">
+        </div>
+        <div class="col-sm-8">
+            <h1>Nome Colorido</h1>
+            <form>
+                <div class="pb-2">
+                    <label for="nome" class="form-label">Nome Completo:</label>
+                    <input type="text" name="nome" id="nome" class="form-control" placeholder="Digite seu nome completo...">
+                </div>
+                <div>
+                    <input type="submit" value="Exibir partes do Nome" class="btn btn-primary">
+                </div>
+            </form>
+            <div id="partesNome" class="mt-2"></div>
+        </div>
+    </div>
+</div>
+
+<script src="./resp10_b.js"></script>
+</body>
+</html>
