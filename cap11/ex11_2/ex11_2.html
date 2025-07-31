@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Exemplo 11.2</title>
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-3">
+            <img src="../img/teatro.svg" alt="Imagem Teatro" class="img-fluid">
+        </div>
+        <div class="col-sm-9">
+            <h1>Teatro: Show Musical - Reserva de Poltronas</h1>
+            <form>
+                <div class="row">
+                    <div class="col-sm-2">
+                        <p>
+                            <label for="poltrona">Nº da Poltrona:</label>
+                            <input type="number" min="1" class="form-control" id="poltrona" required autofocus>
+                        </p>
+                    </div>
+                    <div class="col-sm-4">
+                        <input type="submit" class="btn btn-primary mt-4" value="Reservar">
+                        <input type="button" class="btn btn-danger mt-4" value="Confirmar Reserva" id="btnConfirmar">
+                    </div>
+                    <div class="col-sm-6">
+                        Legenda:
+                        <p class="mt-2">
+                            <img src="../img/disponivel.png" alt="Imagem Poltrona Disponivel" class="poltrona">Disponível
+                            <img src="../img/reservada.png" alt="Imagem Poltrona Reservada" class="poltrona ms-3">Reservada
+                            <img src="../img/ocupada.png" alt="Imagem Poltrona Ocupada" class="poltrona m2-3">Ocupada
+                        </p>
+                    </div>
+                </div>
+            </form>
+            <div class="row">
+                <div class="col-sm-12" id="divPalco">
+                    <p class="bg-primary text-white text-center">Palco do Teatro</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="./ex11_2.js"></script>
+</body>
+</html>
